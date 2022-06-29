@@ -1,0 +1,65 @@
+html {
+    font-family: 'Rubik Moonrocks', cursive;
+}
+body,
+h1 {
+    margin: 0;
+}
+
+:root {
+    --color: rgb(231, 32, 18);
+}
+
+.navbar {
+    height: 60px;
+    background-color: var(--color);
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    color: white;
+    font-size: 22px;
+}
+
+.btn {
+    padding: 6px 16px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.login-button {  
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    transition: all ease-in-out .4s;
+    margin-right: 10px;
+}
+
+.login-button:hover {
+    background-color: white;
+    color: var(--color);
+}
+
+.login-button:active {
+    background-color: gainsboro;
+}
+
+.register-button {
+    background-color: white;
+    color: var(--color);
+    border: 1px solid white;
+    transition: all ease-in-out .4s;
+}
+
+.register-button:hover {
+    background-color: gainsboro;
+    border-color: gainsboro;
+}
+
+.register-button:active {
+    background-color: white;
+    background-color: white;
+}
